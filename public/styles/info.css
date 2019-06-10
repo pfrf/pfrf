@@ -1,0 +1,78 @@
+.main-info-items {
+    padding: 5px 50px 0 50px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.main-info-item-image {
+    width: 100%;
+}
+
+.main-info-items .controls .controls-item {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: calc(50% - 12.5px);
+    cursor: pointer;
+}
+
+.main-info-item {
+    position: relative;
+    display: none;
+    overflow: hidden;
+}
+
+.main-info-item.active {
+    display: block;
+}
+
+.main-info-item .description {
+    width: 410px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+.main-info-item .description .text {
+    width: 290px;
+    height: 80px;
+    padding: 10px 10px 10px 0;
+    float: left;
+    font-size: 22px;
+}
+
+.main-info-item .description .logo {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.main-info-item .description .logo.left {
+    margin-left: 20px;
+}
+
+.main-info-items .controls .controls-item.previous {
+    background-image: url('/public/images/arrow-blue-1.png');
+    background-size: cover;
+    left: 12.5px;
+}
+
+.main-info-items .controls .controls-item.previous:hover {
+    background-image: url('/public/images/arrow-blue-3.png');
+}
+
+.main-info-items .controls .controls-item.next {
+    background-image: url('/public/images/arrow-blue-2.png');
+    background-size: cover;
+    right: 12.5px;
+}
+
+.main-info-items .controls .controls-item.next:hover {
+    background-image: url('/public/images/arrow-blue-4.png');
+}

@@ -1,0 +1,27 @@
+.main-items {
+	width: 1320px;
+	position: relative;
+	left: calc(50% - 660px);
+	height: 450px;
+	padding-bottom: 100px;
+}
+
+.main-item {
+    float: left;
+}
+
+.main-item-left, .main-item-right {
+    width: 330px;
+}
+
+.main-item-right {
+	margin-left: 30px;
+}
+
+.main-item-left {
+	margin-right: 30px;
+}
+
+.main-item-center {
+    width: 600px;
+}

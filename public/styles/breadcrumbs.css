@@ -1,0 +1,26 @@
+.breadcrumbs {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 65px;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border-bottom: 2px solid white;
+    position: relative;
+}
+
+.breadcrumbs li {
+    display: block;
+    float: left;
+}
+
+.breadcrumbs li:not(:last-child):after {
+    margin: 0 10px;
+    content: '>';
+    font-size: 18px;
+}
+
+.breadcrumbs li:last-child a{
+    color: blue;
+}
